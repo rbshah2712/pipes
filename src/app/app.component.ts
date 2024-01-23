@@ -11,6 +11,7 @@ export class AppComponent {
   name = "RUCHI";
   currency = 101;
   pi = 3.1432432434;
+  collegename = 'Atmiya institute of technology and science';
   users = [
     {name:'Dennis',age:21},
     {name:'Matt',age:33},
@@ -23,6 +24,7 @@ export class AppComponent {
     {firstname:'Bhavin',marks:45},
 
   ];
+  
   filteredstring:string = '';
   animals : string[];
   constructor(){
