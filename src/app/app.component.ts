@@ -11,6 +11,7 @@ export class AppComponent {
   name = "RUCHI";
   currency = 101;
   pi = 3.1432432434;
+  dateval = new Date();
   collegename = 'Atmiya institute of technology and science';
   users = [
     {name:'Dennis',age:21},
